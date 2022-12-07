@@ -12,6 +12,7 @@ export default function Button() {
         } else {
             button.setAttribute('aria-expanded', 'false');  
         }
+    /* alert('I was clicked!') */
 }
 
     return (

@@ -151,9 +151,8 @@ li {
   flex: 1 1 auto;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   margin-top: 0;
-  padding-top: 2em;
 }
 
 
