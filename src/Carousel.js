@@ -1,17 +1,58 @@
+import React from "react"
+import {Swiper, SwiperSlide} from "swiper/react"
 
-import React from "react";
-import Card from "./Card";
+import "swiper/css";
+import "swiper/css/effect-cards";
 
-function Carousel() {
+import "./App.css";
+import { EffectCards } from "swiper";
+
+
+
+export default function Carousel() {
     return(
-        <div className="carousel">
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-        </div>
+        <Swiper
+        effect={"cards"}
+        grabCursor={true}
+        modules={[EffectCards]}
+        initialSlide={0}
+        className="mySwiper"
+      >
+        <SwiperSlide className="carousel__card">
+            <a className="card__link" href="#">     <h4 className="card__title">
+                How will I pay for my children's education?
+            </h4>
+            <img className="card__img" src="assets/child.svg" alt='logo with child icon'></img>
+            </a>
+        </SwiperSlide>
+        <SwiperSlide className="carousel__card">
+            <a className="card__link" href="#"> <h4 className="card__title">
+                How will I pay for my children's education?
+            </h4>
+            <img className="card__img" src="assets/child.svg" alt='logo with child icon'></img>
+            </a>
+        </SwiperSlide>
+        <SwiperSlide className="carousel__card">
+            <a className="card__link" href="#"> <h4 className="card__title">
+                How will I pay for my children's education?
+            </h4>
+            <img className="card__img" src="assets/child.svg" alt='logo with child icon'></img>
+            </a>
+        </SwiperSlide>
+        <SwiperSlide className="carousel__card">
+            <a className="card__link" href="#"> <h4 className="card__title">
+                How will I pay for my children's education?
+            </h4>
+            <img className="card__img" src="assets/child.svg" alt='logo with child icon'></img>
+            </a>
+        </SwiperSlide>
+        <SwiperSlide className="carousel__card">
+            <a className="card__link" href="#"> <h4 className="card__title">
+                How will I pay for my children's education?
+            </h4>
+            <img className="card__img" src="assets/child.svg" alt='logo with child icon'></img>
+            </a>
+        </SwiperSlide>
+      </Swiper>
     )
 }
-
-export default Carousel

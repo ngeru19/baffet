@@ -1,20 +1,32 @@
-
 import React from "react";
+import MobileBtn from "./MobileBtn";
 
-function Header() {
-    return(
+export default function Header() {
+    return (
         <div className="header">
             <h2 className="header__logo">baffet</h2>
             <nav className="header__nav">
-                <a className="header__nav__link">About us</a>
-                <a className="header__nav__link">Blog</a>
+                <ul className="header__nav__items">
+                    <li className="header__nav__item">
+                        <a className="about">About Us</a>
+                    </li>
+                    <li className="header__nav__item blog">
+                        <a>Blog</a>
+                    </li>
+                </ul>
             </nav>
             <div className="header__signing">
-                <a className="header__sign_in">Sign In</a>
-                <a className="header__sign_up">Sign Up</a>    
-            </div> 
+                <ul className="header__signing__items">
+                    <li className="header__signing__item in">
+                        <a>Sign In</a>                    
+                    </li>
+                    <li className="header__signing__item up">
+                        <a>Sign Up</a>                    
+                    </li>
+                </ul>
+            </div>
+            <MobileBtn />
         </div>
+        
     )
 }
-
-export default Header 

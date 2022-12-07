@@ -1,17 +1,18 @@
-
 import React from "react";
+import Carousel from "./Carousel";
+import MobileBtn from "./MobileBtn"; 
 
-function Main() {
-    return(
+export default function Main() {
+    return (
         <div className="main">
-            <div className="main__title">
-                <h2 className="main__title__title"><span className="accent-text">Your wealth</span> starts here</h2>
-                <h3 className="main__title__subtitle">The best time to start building your wealth is <span className="accent-text">now</span>.
-                </h3>
+            <div className="main__info">
+                <h2 className="main__info__title"><span className="accent">Your wealth</span> starts here</h2>
+                <h3 className="main__info__subtitle">Wealth management with confidence and experience</h3>
+                <a className="main__cta">Start my plan</a>
             </div>
-            <a href="#" className="main__cta">Start my plan</a>    
+            <div className="main__carousel">
+                <Carousel />
+            </div>       
         </div>
     )
 }
-
-export default Main
