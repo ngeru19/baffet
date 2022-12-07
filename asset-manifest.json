@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/baffet/static/css/main.c3e49afe.css",
+    "main.js": "/baffet/static/js/main.8b1a34ca.js",
+    "static/js/787.d0d1a465.chunk.js": "/baffet/static/js/787.d0d1a465.chunk.js",
+    "index.html": "/baffet/index.html",
+    "main.c3e49afe.css.map": "/baffet/static/css/main.c3e49afe.css.map",
+    "main.8b1a34ca.js.map": "/baffet/static/js/main.8b1a34ca.js.map",
+    "787.d0d1a465.chunk.js.map": "/baffet/static/js/787.d0d1a465.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3e49afe.css",
+    "static/js/main.8b1a34ca.js"
+  ]
+}
