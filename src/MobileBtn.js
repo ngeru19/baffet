@@ -12,7 +12,7 @@ export default function Button() {
         } else {
             button.setAttribute('aria-expanded', 'false');  
         }
-    /* alert('I was clicked!') */
+    alert('I was clicked!')
 }
 
     return (
@@ -22,7 +22,7 @@ export default function Button() {
                     aria-expanded="false"
                     onClick={handleClick}
                     >
-                <svg fill="var(--color_accent_one)" className="hamburger" viewBox="0 0 100 100" width='3em'>
+                <svg fill="var(--color_accent_two)" className="hamburger" viewBox="0 0 100 100" width='3em'>
                     <rect 
                     className="hamburger__line line__top" 
                         width={80} 

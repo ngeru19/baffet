@@ -143,6 +143,7 @@ li {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  position: relative;
 }
 
 .container {
@@ -372,17 +373,55 @@ li {
     margin-right: auto;
   }
 
-  .header__nav {
-    display: none;
-  }
-
-  .header__signing {
-    display: none;
-  }
-
   .hamburger-button {
     display: flex;
   }
+
+  .header__nav {
+    position: fixed;
+    right: 5%;    
+    top: 15%;
+    z-index: 100;
+    color: var(--color_accent_two);
+    font-size: var(--fontXXL);
+    font-weight: 700;
+  }
+
+  .header__signing {
+    position: fixed;
+    right: 5%;    
+    top: 35%;
+    z-index: 100;
+    color: var(--color_accent_two);
+    font-size: var(--fontXXL);
+    font-weight: 700;
+  }
+
+  .header__nav__items,
+  .header__signing__items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+
+  .header {
+    position: relative;
+  }
+
+  .button {
+    z-index: 100;
+  }
+
+  .mobile-bg {
+    background-color: var(--color_primary);
+    position: absolute;
+    width: 50vw;
+    height: 100vh;
+    right: 0;
+    z-index: 50;
+  }
+
 }
 
 
