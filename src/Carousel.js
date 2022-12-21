@@ -7,6 +7,7 @@ import "swiper/css/effect-cards";
 import "./App.css";
 import { EffectCards } from "swiper";
 
+import img from "./assets/child.svg"
 
 
 export default function Carousel() {
@@ -22,35 +23,35 @@ export default function Carousel() {
             <a className="card__link" href="#">     <h4 className="card__title">
                 How will I pay for my children's education?
             </h4>
-            <img className="card__img" src="assets/child.svg" alt='logo with child icon'></img>
+            <img className="card__img" src={img} alt='logo with child icon'></img>
             </a>
         </SwiperSlide>
         <SwiperSlide className="carousel__card">
             <a className="card__link" href="#"> <h4 className="card__title">
                 How will I pay for my children's education?
             </h4>
-            <img className="card__img" src="assets/child.svg" alt='logo with child icon'></img>
+            <img className="card__img" src={img} alt='logo with child icon'></img>
             </a>
         </SwiperSlide>
         <SwiperSlide className="carousel__card">
             <a className="card__link" href="#"> <h4 className="card__title">
                 How will I pay for my children's education?
             </h4>
-            <img className="card__img" src="assets/child.svg" alt='logo with child icon'></img>
+            <img className="card__img" src={img} alt='logo with child icon'></img>
             </a>
         </SwiperSlide>
         <SwiperSlide className="carousel__card">
             <a className="card__link" href="#"> <h4 className="card__title">
                 How will I pay for my children's education?
             </h4>
-            <img className="card__img" src="assets/child.svg" alt='logo with child icon'></img>
+            <img className="card__img" src={img} alt='logo with child icon'></img>
             </a>
         </SwiperSlide>
         <SwiperSlide className="carousel__card">
             <a className="card__link" href="#"> <h4 className="card__title">
                 How will I pay for my children's education?
             </h4>
-            <img className="card__img" src="assets/child.svg" alt='logo with child icon'></img>
+            <img className="card__img" src={img} alt='logo with child icon'></img>
             </a>
         </SwiperSlide>
       </Swiper>

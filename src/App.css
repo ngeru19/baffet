@@ -60,19 +60,15 @@ li {
 
 
 .header {
-  border: var(--check);
+  /* border: var(--check); */
   display: flex;
   justify-content: space-between;
   gap: 2em;
   width: 90%;
   margin: 0 auto;
-  padding-top: 1em;
+  padding-top: 2em;
   padding-bottom: 0;
   align-items: center;
-}
-
-.header > * {
-  border: var(--check);
 }
 
 .header__logo {
@@ -131,8 +127,8 @@ li {
 }
 
 .up {
-  background-color: var(--color_primary);
-  color: #fff;
+  background-color: var(--color_accent_one);
+  color: var(--color_primary);
   border: solid 1px var(--color_accent_one);
 }
 
@@ -158,7 +154,7 @@ li {
 
 
 .main {
-  border: var(--check);
+  /* border: var(--check); */
   margin: 0;
   /* position: absolute;
   top: 50%;
@@ -254,7 +250,7 @@ li {
 }
 
 .carousel__card {
-  border: 1px solid red;
+  border: 1px solid var(--color_primary);
   background-color: #A9C6C4; /* #A9C6C4 */
   padding-bottom: 1em;
 }
@@ -279,7 +275,7 @@ li {
 
 .card__img {
   width: 75%;
-  border: var(--check);
+  /* border: var(--check); */
   margin-bottom: 1em;
 }
 
