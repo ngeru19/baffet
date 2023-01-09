@@ -322,6 +322,58 @@ li {
   rotate: -45deg;  
 } 
 
+/* SWIPER */
+
+
+.swiper {
+  width: 100%;
+  padding-top: 5em;
+  padding-bottom: 3em;
+  position: relative;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+}
+
+.swiper-header {
+  color: #00534f;
+  text-align:center;
+  font-weight: 400;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 70%;
+}
+
+.swiper-pagination {
+  margin-top: 10em;
+}
+
+.swiper-slide {
+  background-color: #3a9e97;
+  filter: blur(4px);
+}
+
+.swiper-slide-next,
+.swiper-slide-prev {
+  filter: blur(2px);
+}
+
+.swiper-slide-active {
+  filter: none;
+}
+
+
+
+
 /************************************* MEDIA ***********************************************/
 
 
