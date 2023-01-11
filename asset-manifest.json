@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/baffet/static/css/main.1a89094b.css",
-    "main.js": "/baffet/static/js/main.c27c67ae.js",
-    "static/js/787.d0d1a465.chunk.js": "/baffet/static/js/787.d0d1a465.chunk.js",
+    "main.css": "/baffet/static/css/main.29f3d770.css",
+    "main.js": "/baffet/static/js/main.ea217e11.js",
     "static/media/child.svg": "/baffet/static/media/child.5bcf19265155275287a83e091b9e05c1.svg",
     "index.html": "/baffet/index.html",
-    "main.1a89094b.css.map": "/baffet/static/css/main.1a89094b.css.map",
-    "main.c27c67ae.js.map": "/baffet/static/js/main.c27c67ae.js.map",
-    "787.d0d1a465.chunk.js.map": "/baffet/static/js/787.d0d1a465.chunk.js.map"
+    "main.29f3d770.css.map": "/baffet/static/css/main.29f3d770.css.map",
+    "main.ea217e11.js.map": "/baffet/static/js/main.ea217e11.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a89094b.css",
-    "static/js/main.c27c67ae.js"
+    "static/css/main.29f3d770.css",
+    "static/js/main.ea217e11.js"
   ]
 }
