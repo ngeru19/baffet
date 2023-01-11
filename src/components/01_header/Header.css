@@ -158,7 +158,6 @@
   .up, .in {
     background-color: var(--color_primary);
     color: var(--color_accent_one);
-    padding: 0;
     margin: 0;
     font-weight: 400;
   }
