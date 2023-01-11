@@ -293,17 +293,17 @@ li {
 
 .button .hamburger__line {
   transition:
-    y 300ms ease-in 300ms,
-    rotate 300ms ease-in,
-    opacity 0ms 300ms; 
+    y 200ms ease-in 200ms,
+    rotate 200ms ease-in,
+    opacity 0ms 200ms; 
     transform-origin: center;
 }
 
 .button[aria-expanded='true'] .hamburger__line {
   transition:
-    y 300ms ease-in,
-    rotate 300ms ease-in 300ms,
-    opacity 0ms 300ms; 
+    y 200ms ease-in,
+    rotate 200ms ease-in 200ms,
+    opacity 0ms 200ms; 
 }
 
 .button[aria-expanded='true'] :is(.line__top, .line__bottom) {
@@ -324,12 +324,16 @@ li {
 
 /* SWIPER */
 
+.swiper-header {
+  font-family: var(--font-title);
+}
 
 .swiper {
   width: 100%;
-  padding-top: 5em;
-  padding-bottom: 3em;
+  /* padding-top: 5em;
+  padding-bottom: 3em; */
   position: relative;
+  border: 1px solid green;
 }
 
 .swiper-slide {
@@ -350,25 +354,36 @@ li {
 
 .swiper-slide img {
   display: block;
-  width: 70%;
+  width: 60%;
 }
 
 .swiper-pagination {
-  margin-top: 10em;
+  bottom: 0 !important;
+}
+
+.swiper-header {
+  font-size: var(--fontS);
+  padding-top: .5em;
 }
 
 .swiper-slide {
   background-color: #3a9e97;
   filter: blur(4px);
+  opacity: 45%;
+  z-index: 10;
 }
 
 .swiper-slide-next,
 .swiper-slide-prev {
   filter: blur(2px);
+  opacity: 75%;
+  z-index: 15;
 }
 
 .swiper-slide-active {
   filter: none;
+  opacity: 100%;
+  z-index: 20;
 }
 
 
@@ -425,24 +440,21 @@ li {
     display: flex;
   }
 
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .header__nav {
-    position: fixed;
-    right: 5%;    
-    top: 15%;
     z-index: 100;
     color: var(--color_accent_two);
-    font-size: var(--fontXXL);
-    font-weight: 700;
   }
 
   .header__signing {
-    position: fixed;
-    right: 5%;    
-    top: 35%;
     z-index: 100;
     color: var(--color_accent_two);
-    font-size: var(--fontXXL);
-    font-weight: 700;
   }
 
   .header__nav__items,
@@ -464,7 +476,7 @@ li {
   .mobile-bg {
     background-color: var(--color_primary);
     position: absolute;
-    width: 50vw;
+    width: 100vw;
     height: 100vh;
     right: 0;
     z-index: 50;

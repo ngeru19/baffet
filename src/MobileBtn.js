@@ -6,13 +6,13 @@ export default function Button() {
 
     const button = document.querySelector('.button');
     const handleClick = () => {
+        const button = document.querySelector('.button');
         const isOpened = button.getAttribute('aria-expanded');
-        if(isOpened == 'false') {
+        if(isOpened === 'false') {
             button.setAttribute('aria-expanded', 'true');
         } else {
             button.setAttribute('aria-expanded', 'false');  
         }
-    alert('I was clicked!')
 }
 
     return (

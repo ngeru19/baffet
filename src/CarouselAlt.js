@@ -32,24 +32,24 @@ export default function App() {
           className="mySwiper"
         >
           <SwiperSlide>
-            <h3 className="swiper-header">Who will raise my child in the event of the unthinkable?</h3>
-            <img src={img} />
+            <h3 className="swiper-header">How will I pay for my children's education?</h3>
+            <img className="swiper-img" src={img} />
           </SwiperSlide>
           <SwiperSlide>
             <h3 className="swiper-header">Who will raise my child in the event of the unthinkable?</h3>
-            <img src={img} />
+            <img className="swiper-img" src={img} />
           </SwiperSlide>
           <SwiperSlide>
             <h3 className="swiper-header">Who will raise my child in the event of the unthinkable?</h3>
-            <img src={img} />
+            <img className="swiper-img" src={img} />
           </SwiperSlide>
           <SwiperSlide>
             <h3 className="swiper-header">Who will raise my child in the event of the unthinkable?</h3>
-            <img src={img} />
+            <img className="swiper-img" src={img} />
           </SwiperSlide>
           <SwiperSlide>
             <h3 className="swiper-header">Who will raise my child in the event of the unthinkable?</h3>
-            <img src={img} />
+            <img className="swiper-img" src={img} />
           </SwiperSlide>
         </Swiper>
       </>
