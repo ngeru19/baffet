@@ -5,10 +5,10 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
-import "./App.css";
+import "./Carousel.css";
 import { EffectCoverflow, Pagination } from "swiper";
 
-import img from "./assets/child.svg"
+import img from "../../assets/child.svg";
 
 export default function App() {
     return (

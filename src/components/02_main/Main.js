@@ -1,5 +1,7 @@
 import React from "react";
-import CarouselAlt from "./CarouselAlt"; 
+import Carousel from "../03_carousel/Carousel";
+
+import "./Main.css";
 
 export default function Main() {
     return (
@@ -10,7 +12,7 @@ export default function Main() {
                 <a className="main__cta">Start my plan</a>
             </div>
             <div className="main__carousel">
-                <CarouselAlt />
+                <Carousel />
             </div>       
         </div>
     )

@@ -1,0 +1,42 @@
+/************************************* MOBILE ***********************************************/
+
+.hamburger-button {
+    display: none;
+  }
+  
+  .button {
+    background: transparent;
+    border-radius: 1em;
+    border: none;
+  }
+  
+  .button .hamburger__line {
+    transition:
+      y 200ms ease-in 200ms,
+      rotate 200ms ease-in,
+      opacity 0ms 200ms; 
+      transform-origin: center;
+  }
+  
+  .button[aria-expanded='true'] .hamburger__line {
+    transition:
+      y 200ms ease-in,
+      rotate 200ms ease-in 200ms,
+      opacity 0ms 200ms; 
+  }
+  
+  .button[aria-expanded='true'] :is(.line__top, .line__bottom) {
+    y: 45;  
+  }
+  
+  .button[aria-expanded='true'] .line__top {
+    rotate: 45deg;  
+  }
+  
+  .button[aria-expanded='true'] .line__middle {
+    opacity: 0;  
+  }
+  
+  .button[aria-expanded='true'] .line__bottom {
+    rotate: -45deg;  
+  } 

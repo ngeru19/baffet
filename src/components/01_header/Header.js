@@ -1,5 +1,6 @@
-import React from "react";
-import MobileBtn from "./MobileBtn";
+
+import MobileBtn from "./Mobile button/MobileBtn";
+import "./Header.css";
 
 export default function Header() {
     return (
