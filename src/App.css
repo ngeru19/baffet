@@ -273,9 +273,7 @@ li {
   .header__signing__items {
     display: flex;
     flex-direction: column;
-  }
-
-  
+  } 
 
   .header {
     position: relative;
@@ -285,14 +283,7 @@ li {
     z-index: 100;
   }
 
-  .mobile-bg {
-    background-color: var(--color_primary);
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    right: 0;
-    z-index: 50;
-  }
+  
 
 }
 

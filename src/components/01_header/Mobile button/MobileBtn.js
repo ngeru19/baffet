@@ -15,7 +15,7 @@ export default function Button() {
 }
 
     return (
-        <div className="hamburger-button">
+        <div className="hamburger__button">
             <button className="button" 
                     aria-controls="primary-navigation" 
                     aria-expanded="false"
